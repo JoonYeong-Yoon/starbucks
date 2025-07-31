@@ -44,3 +44,32 @@ header ul {
   list-style: none;
   gap: 7px;
 }
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  background-color: rgb(44, 42, 41);
+  width: 100%;
+}
+
+footer ul {
+  display: row;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li > a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-image: "../public/images/bg.jpg";
+}
